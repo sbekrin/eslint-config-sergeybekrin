@@ -1,0 +1,18 @@
+{
+  "name": "eslint-config-sergeybekrin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergeybekrin/eslint-config-sergeybekrin.git"
+  },
+  "author": "Sergey Bekrin <sergey@bekrin.me> (http://bekrin.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sergeybekrin/eslint-config-sergeybekrin/issues"
+  },
+  "homepage": "https://github.com/sergeybekrin/eslint-config-sergeybekrin#readme"
+}
