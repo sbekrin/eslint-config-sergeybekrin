@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/sergeybekrin/eslint-config-sergeybekrin/issues"
   },
-  "homepage": "https://github.com/sergeybekrin/eslint-config-sergeybekrin#readme"
+  "homepage": "https://github.com/sergeybekrin/eslint-config-sergeybekrin#readme",
+  "peerDependencies": {
+    "eslint": "^3.19.0"
+  }
 }
