@@ -114,6 +114,6 @@ module.exports = {
         'yield-star-spacing': [ 'error', {
             before: false,
             after: true
-        }],
+        }]
     }
 };
