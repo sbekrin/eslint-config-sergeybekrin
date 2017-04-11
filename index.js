@@ -5,7 +5,8 @@ module.exports = {
     },
     extends: [
         './stylistic',
-        './best-practices'
+        './best-practices',
+        './possible-errors'
     ],
     rules: {}
 };
