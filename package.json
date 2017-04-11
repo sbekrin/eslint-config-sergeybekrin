@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sergeybekrin/eslint-config-sergeybekrin.git"
@@ -17,5 +16,9 @@
   "homepage": "https://github.com/sergeybekrin/eslint-config-sergeybekrin#readme",
   "peerDependencies": {
     "eslint": "^3.19.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^7.2.1",
+    "eslint-plugin-babel": "^4.1.1"
   }
 }

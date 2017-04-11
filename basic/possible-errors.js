@@ -33,5 +33,5 @@ module.exports = {
         'use-isnan': 'error',
         'valid-jsdoc': [ 'error', { requireReturn: false }],
         'valid-typeof': 'error'
-    },
+    }
 };

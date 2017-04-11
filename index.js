@@ -4,9 +4,8 @@ module.exports = {
         node: true
     },
     extends: [
-        './stylistic',
-        './best-practices',
-        './possible-errors'
+        './basic'
     ],
-    rules: {}
+    rules: {
+    }
 };
