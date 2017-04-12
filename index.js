@@ -4,8 +4,7 @@ module.exports = {
         node: true
     },
     extends: [
-        './basic'
+        './basic/index.js'
     ],
-    rules: {
-    }
+    rules: {}
 };

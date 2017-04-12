@@ -2,7 +2,7 @@ module.exports = {
     rules: {
         'sort-imports': 'off',
         'object-curly-spacing': 'off',
-        'babel/object-curly-spacing': [ 'error', 'never' ],
+        'babel/object-curly-spacing': [ 'error', 'always' ],
         semi: 'off',
         'babel/semi': [ 'error', 'always' ],
         'no-invalid-this': 'off',

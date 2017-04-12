@@ -2,7 +2,9 @@ module.exports = {
     rules: {
         'array-bracket-spacing': [ 'error', 'always' ],
         'arrow-body-style': 'off',
-        'arrow-parens': [ 'error', 'as-needed' ],
+        'arrow-parens': [ 'error', 'as-needed', {
+            requireForBlockBody: false
+        }],
         'arrow-spacing': 'error',
         'block-spacing': 'error',
         'brace-style': 'error',
@@ -16,7 +18,7 @@ module.exports = {
         'func-call-spacing': 'error',
         'func-names': 'error',
         'func-name-matching': 'error',
-        'func-style': 'error',
+        'func-style': 'off',
         'generator-star-spacing': 'error',
         'id-blacklist': 'error',
         'init-declarations': 'error',
@@ -35,7 +37,9 @@ module.exports = {
         'max-lines': 'error',
         'max-nested-callbacks': 'error',
         'max-params': [ 'error', 7 ],
-        'max-statements-per-line': [ 'error', 2 ],
+        'max-statements-per-line': [ 'error', {
+            max: 2
+        }],
         'max-statements': 'off',
         'multiline-ternary': 'off',
         'new-cap': 'error',
@@ -67,16 +71,15 @@ module.exports = {
         'no-unneeded-ternary': 'error',
         'no-whitespace-before-property': 'error',
         'nonblock-statement-body-position': 'error',
-        'object-curly-newline': [ 'error', {
-            multiline: true,
-            minProperties: 4
-        }],
-        'object-curly-spacing': [ 'error', {
+        'object-curly-newline': 'off',
+        'object-curly-spacing': [ 'error', 'never', {
             arraysInObjects: false,
             objectsInObjects: false
         }],
-        'object-property-newline': 'error',
-        'object-shorthand': [ 'error', 'consistent-as-needed' ],
+        'object-property-newline': [ 'error', {
+            allowMultiplePropertiesPerLine: true
+        }],
+        'object-shorthand': [ 'error', 'properties' ],
         'one-var-declaration-per-line': 'error',
         'one-var': 'off',
         'operator-assignment': 'off',
@@ -98,7 +101,7 @@ module.exports = {
         'semi': 'error',
         'sort-keys': 'off',
         'sort-keys': 'off',
-        'sort-imports': 'warning',
+        'sort-imports': 'warn',
         'space-before-blocks': 'error',
         'space-before-function-paren': [ 'error', 'never' ],
         'space-in-parens': [ 'error', 'never' ],

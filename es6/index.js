@@ -4,9 +4,9 @@ module.exports = {
         es6: true,
     },
     extends: [
-        './stylistic',
-        './best-practices',
-        './possible-errors'
+        './stylistic.js',
+        './best-practices.js',
+        './possible-errors.js'
     ],
     parserOptions: {
         ecmaVersion: 6,

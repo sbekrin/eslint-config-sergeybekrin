@@ -14,7 +14,7 @@ module.exports = {
     'no-var': 'error',
     'prefer-const': 'error',
     'prefer-numeric-literals': 'error',
-    'prefer-reflect': 'warning',
+    'prefer-reflect': 'warn',
     'prefer-rest-params': 'error',
     'prefer-spread': 'error',
     'prefer-template': 'error',

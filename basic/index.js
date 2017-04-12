@@ -1,8 +1,8 @@
 module.exports = {
     extends: [
-        './stylistic',
-        './best-practices',
-        './possible-errors'
+        './stylistic.js',
+        './best-practices.js',
+        './possible-errors.js'
     ],
     rules: {}
 };

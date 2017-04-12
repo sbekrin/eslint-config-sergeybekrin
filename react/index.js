@@ -18,7 +18,7 @@ module.exports = {
         'react/forbid-prop-types': 'off',
         'react/jsx-boolean-value': 'error',
         'react/jsx-closing-bracket-location': 'error',
-        'react/jsx-curly-spacing': [ 'error', {
+        'react/jsx-curly-spacing': [ 'error', 'never', {
             allowMultiline: true
         }],
         'react/jsx-equals-spacing': 'error',
@@ -30,7 +30,7 @@ module.exports = {
         'react/jsx-indent': [ 'error', 4 ],
         'react/jsx-indent-props': [ 'error', 4 ],
         'react/jsx-key': 'error',
-        'react/jsx-max-props-per-line': [ 'warning', {
+        'react/jsx-max-props-per-line': [ 'warn', {
             maximum: 4
         }],
         'react/jsx-no-bind': 'off',
@@ -46,15 +46,15 @@ module.exports = {
         'react/jsx-uses-react': 'error',
         'react/jsx-uses-vars': 'error',
         'react/jsx-wrap-multilines': 'error',
-        'react/no-array-index-key': 'warning',
+        'react/no-array-index-key': 'warn',
         'react/no-children-prop': 'error',
         'react/no-danger-with-children': 'error',
-        'react/no-danger': 'warning',
-        'react/no-deprecated': 'warning',
+        'react/no-danger': 'warn',
+        'react/no-deprecated': 'warn',
         'react/no-did-mount-set-state': 'error',
         'react/no-did-update-set-state': 'error',
         'react/no-direct-mutation-state': 'error',
-        'react/no-find-dom-node': 'warning',
+        'react/no-find-dom-node': 'warn',
         'react/no-is-mounted': 'error',
         'react/no-multi-comp': [ 'error', {
             ignoreStateless: true
@@ -63,14 +63,14 @@ module.exports = {
         'react/no-set-state': 'off',
         'react/no-string-refs': 'error',
         'react/no-unescaped-entities': 'error',
-        'react/no-unknown-property': 'warning',
+        'react/no-unknown-property': 'warn',
         'react/no-unused-prop-types': 'error',
-        'react/no-will-update-set-state': 'error',
+        // 'react/no-will-update-set-state': 'error',
         'react/prefer-es6-class': 'off',
         'react/prefer-stateless-function': [ 'error', {
             ignorePureComponents: true
         }],
-        'react/prop-types': 'warning',
+        'react/prop-types': 'warn',
         'react/react-in-jsx-scope': 'error',
         'react/require-default-props': 'off',
         'react/require-extension': 'off',
