@@ -9,7 +9,7 @@ module.exports = {
         'block-spacing': 'error',
         'brace-style': 'error',
         camelcase: [ 'error', { properties: 'always' }],
-        'comma-dangle': 'error',
+        'comma-dangle': [ 'error', 'always-multiline' ],
         'comma-spacing': 'error',
         'comma-style': 'error',
         'computed-property-spacing': 'error',
@@ -25,7 +25,7 @@ module.exports = {
         'id-length': 'off',
         // From https://github.com/kentcdodds/eslint-config-kentcdodds/blob/master/stylistic.js#L39
         'id-match': [ 'error', '^\\$?(__)?(([A-Z]|[a-z]|[0-9]+)|([A-Z_]))*\\$?$' ],
-        indent: [ 'error', 4, { SwitchCase: 1 }],
+        indent: [ 'error', 2, { SwitchCase: 1 }],
         'key-spacing': 'error',
         'keyword-spacing': 'error',
         'linebreak-style': 'error',
