@@ -27,8 +27,8 @@ module.exports = {
         }],
         'react/jsx-first-prop-new-line': [ 'error', 'multiline' ],
         'react/jsx-handler-names': 'off',
-        'react/jsx-indent': [ 'error', 4 ],
-        'react/jsx-indent-props': [ 'error', 4 ],
+        'react/jsx-indent': [ 'error', 2 ],
+        'react/jsx-indent-props': [ 'error', 2 ],
         'react/jsx-key': 'error',
         'react/jsx-max-props-per-line': [ 'warn', {
             maximum: 4
